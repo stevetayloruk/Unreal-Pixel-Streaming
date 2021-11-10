@@ -17,12 +17,12 @@ Param (
 $jumpboxvnet = "jumpbox-vnet"
 
 #variables
-$RG1 = $rootvariable + "-eastus-unreal-rg"
+$RG1 = $rootvariable + "-uksouth-unreal-rg"
 $RG2 = $rootvariable + "-westus-unreal-rg"
 $RG3 = $rootvariable + "-westeurope-unreal-rg"
 $RG4 = $rootvariable + "-southeastasia-unreal-rg"
 
-$VNET1 = $rootvariable + "-vnet-eastus"
+$VNET1 = $rootvariable + "-vnet-uksouth"
 $VNET2 = $rootvariable + "-vnet-westus"
 $VNET3 = $rootvariable + "-vnet-westeurope"
 $VNET4 = $rootvariable + "-vnet-southeastasia"
